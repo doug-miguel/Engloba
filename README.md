@@ -23,5 +23,5 @@ Projeto desenvolvido com o framework React.
    ```
 3. Inicie o servidor local 
    ```sh
-   yarn start
+   yarn dev
    ```
