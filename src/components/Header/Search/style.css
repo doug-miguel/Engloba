@@ -1,0 +1,88 @@
+.containerLeft {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+.vLine::after {
+  margin-top: 0;
+  content: "";
+  display: block;
+  width: 2px;
+  height: 70px;
+  background: currentColor;
+  border-color: gray;
+  color: gray;
+}
+
+.MenuButton {
+  border-radius: 0.2rem;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.MenuButton::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  border-radius: 2px;
+  background: currentColor;
+  box-shadow: 0 10px currentColor, 0 -10px currentColor;
+  transition: 0.2s;
+  border-color: gray;
+  color: gray;
+}
+
+.MenuButton:focus,
+.MenuButton:hover,
+.MenuButtonActive {
+  outline: none;
+}
+
+.MenuButtonActive::after {
+  transform: rotate(90deg);
+  width: 5px;
+  height: 5px;
+  box-shadow: 0 12px currentColor, 0 -12px currentColor;
+  border-color: gray;
+  color: gray;
+}
+
+.containerDropdowns {
+  display: flex;
+  align-items: center;
+}
+
+text,
+input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  padding: 10px 256px 10px 0;
+}
+
+.InputBox {
+  width: 30rem;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px;
+  border-color: gray;
+  padding: 10px;
+}

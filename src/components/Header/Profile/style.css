@@ -1,0 +1,18 @@
+.containerRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.iconClick:hover,
+.avatar img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
