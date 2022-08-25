@@ -14,7 +14,7 @@ Projeto desenvolvido com o framework React.
 
 1. Clone o repositorio
    ```sh 
-   git clone https://github.com/doug-miguel/Havas-Cx.git
+   git clone https://github.com/doug-miguel/Engloba.git
    ``` 
 2. Instale os pacotes 
    Yarn
