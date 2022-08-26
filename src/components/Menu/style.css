@@ -20,3 +20,12 @@
 .cards:hover {
   opacity: 0.4;
 }
+
+@media (max-width: 800px) {
+  .gridMenu {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -9,3 +9,10 @@
   display: grid;
   grid-template-columns: 1.5fr 3fr;
 }
+
+@media (max-width: 800px) {
+  .subContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

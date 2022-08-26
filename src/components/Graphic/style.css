@@ -6,3 +6,13 @@
   align-items: center;
   margin-top: 20px;
 }
+
+@media (max-width: 800px) {
+  .containerGraphic {
+    width: 600px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 30px;
+  }
+}
